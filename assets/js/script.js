@@ -88,7 +88,7 @@ checkMe.addEventListener("click", function ()
     {
         const check = existingMails[index];
         
-        if (check === htmlMail)
+        if (check === htmlMailValue)
         {
             checkMail = true
         }
