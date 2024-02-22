@@ -79,10 +79,11 @@ let checkMe = document.getElementById("check_me");
 let resultBox = document.querySelector(".result");
 
 //take value when click
+
 checkMe.addEventListener("click", function () 
 {
     let htmlMailValue = htmlMail.value ;
-    console.log(htmlMailValue);
+    //console.log(htmlMailValue);
 
     for (let index = 0; index < existingMails.length; index++)
     {
@@ -115,3 +116,4 @@ checkMe.addEventListener("click", function ()
     }
 }   
 );
+
