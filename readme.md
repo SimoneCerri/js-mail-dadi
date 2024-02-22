@@ -8,7 +8,7 @@ Usiamo un input e un bottone per inserire la mail e poi mostriamo i risultati in
 
 # ?Solution?
 MAIL
-- ask the client for an email.
+- ask the client for an email. //for the happyness of Fabio i choose this list of registeredMail "pippo@gmail.com","pluto@gmail.com","paperino@gmail.com"
 - check email in the list.
     - IF is in the list.
         - alert welcome.
