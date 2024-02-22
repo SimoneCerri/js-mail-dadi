@@ -76,11 +76,41 @@ else if (player > npc)
 //variables and take it from HTML
 let htmlMail = document.getElementById("email");
 let checkMe = document.getElementById("check_me");
+let resultBox = document.querySelector(".result");
 
+//take value when click
 checkMe.addEventListener("click", function () 
 {
     let htmlMailValue = htmlMail.value ;
     console.log(htmlMailValue);
-}
-    
-)
+
+    for (let index = 0; index < existingMails.length; index++)
+    {
+        const check = existingMails[index];
+        
+        if (check === htmlMail)
+        {
+            checkMail = true
+        }
+        
+        else
+        {
+
+        }
+
+    }
+
+    if (checkMail === true)
+    {
+        let resultMail = document.createElement("div");
+        resultMail.innerText = ("WELCOME BACK BROH!");
+        resultBox.appendChild(resultMail);
+    }
+    else
+    {
+        let resultMail = document.createElement("div");
+        resultMail.innerText = ("YOU SHALL NOT PASS...");
+        resultBox.appendChild(resultMail);
+    }
+}   
+);
