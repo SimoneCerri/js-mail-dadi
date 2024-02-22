@@ -105,6 +105,7 @@ checkMe.addEventListener("click", function ()
         let resultMail = document.createElement("div");
         resultMail.innerText = ("WELCOME BACK BROH!");
         resultBox.appendChild(resultMail);
+        checkMail = false;
     }
     else
     {
