@@ -57,13 +57,16 @@ numbers.push(npc);
 if ( npc === player)
 {
     console.log("Same result, usually table win, but reroll..");
+    alert("Table roll: " + npc + " Player roll: " + player + " Same result, usually table win, but reroll..");
 }
 else if (npc > player)
 {
     console.log("Table win..UNLUCKY!");
+    alert("Table roll: " + npc + " Player roll: " + player + " Table win..UNLUCKY!");
 }
 else if (player > npc)
 {
     console.log("Player win..YOU GOT MONEY!");
+    alert("Table roll: " + npc + " Player roll: " + player + " Player win..YOU GOT MONEY!");
 }
 //alert with the winner.
