@@ -41,16 +41,29 @@ else
 let player = Math.random() * (6 - 1) + 1;
 //console.log(typeof player);
 player = Number(player.toFixed(0));
-//console.log(typeof player);
+console.log("Player roll: " + player);
 
 //generate a random number 1 - 6 for the npc.
 let npc = Math.random() * (6 - 1) + 1;
 npc = Number(npc.toFixed(0));
-//console.log(npc);
+console.log("Table roll: " + npc);
 
 //chose the winner(higher number).
-let numbers = [0];
+let numbers = [];
 numbers.push(player);
 numbers.push(npc);
-console.log(numbers);
+//console.log(numbers);
+
+if ( npc === player)
+{
+    console.log("Same result, usually table win, but reroll..");
+}
+else if (npc > player)
+{
+    console.log("Table win..UNLUCKY!");
+}
+else if (player > npc)
+{
+    console.log("Player win..YOU GOT MONEY!");
+}
 //alert with the winner.
