@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding: 3rem 0;
+    border-radius: 20px;
+    background-color: palevioletred;
+    max-width: 800px;
+    margin: 0 auto;
+    h1
+    {
+        text-align: center;
+        color: paleturquoise;
+    }
+    .row
+    {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        
+        button
+        {
+            padding: 0.5em;
+            border-radius: 20px;
+            border-style: none;
+            background-color: paleturquoise;
+            color: #333;
+            width: 490px;
+        }
+
+        input
+        {
+            border-style: none;
+            width: 490px;
+            height: 25px;
+        }
+    }
+}
+
+.bg_page
+{
+    padding-top: 6rem;
+    background-color: palegoldenrod;
+    height: 100vh;
+}
