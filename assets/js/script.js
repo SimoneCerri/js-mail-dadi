@@ -5,10 +5,10 @@ let existingMails = ["pippo@gmail.com","pluto@gmail.com","paperino@gmail.com"]
 //let mail = prompt("HEY ! Who are you ? Insert your email here..")
 let checkMail = false;
 
-console.log(mail);
+//console.log(mail);
 
 //check email in the list.
-for (let index = 0; index < existingMails.length; index++)
+/* for (let index = 0; index < existingMails.length; index++)
 {
     const check = existingMails[index];
     //IF is in the list alert welcome.
@@ -31,7 +31,7 @@ if (checkMail === true)
 else 
 {
     //alert("You shall not pass..! cit.")
-}
+} */
 
 
 
@@ -72,3 +72,15 @@ else if (player > npc)
 
 
 //BONUS
+
+//variables and take it from HTML
+let htmlMail = document.getElementById("email");
+let checkMe = document.getElementById("check_me");
+
+checkMe.addEventListener("click", function () 
+{
+    let htmlMailValue = htmlMail.value ;
+    console.log(htmlMailValue);
+}
+    
+)

@@ -9,13 +9,13 @@
 {
     padding: 3rem 0;
     border-radius: 20px;
-    background-color: palevioletred;
+    background-color: paleturquoise;
     max-width: 800px;
     margin: 0 auto;
     h1
     {
         text-align: center;
-        color: paleturquoise;
+        color: #333;
     }
     .row
     {
@@ -25,17 +25,17 @@
         
         button
         {
-            padding: 0.5em;
+            padding: 0.3em 3em;
             border-radius: 20px;
             border-style: none;
-            background-color: paleturquoise;
+            background-color: lightgoldenrodyellow;
             color: #333;
-            width: 490px;
         }
 
         input
         {
             border-style: none;
+            border-radius: 5px;
             width: 490px;
             height: 25px;
         }
